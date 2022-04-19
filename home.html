@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!--in our nav section we will be adding our logo, search options, favourates -->
+        <br>
+        <nav>
+            <!--we are going to create logo for our music player i.e. musicista -->
+            <div id="logo">
+                <table>
+                <tr>
+                <td><img src="https://www.logolynx.com/images/logolynx/79/79e44db6df9b320074c892e2f093fd73.png"></td>
+                <td style="font-size: 40px;"><b>M</b></td>
+                <td>usicista</td>
+            </tr>
+            </table>
+               
+            </div>
+            <div id="fav">
+                <br>
+                <input type="text" value="favourites" disabled>
+            </div>
+            <div id="search">
+                <br>
+                <img src="a.png">
+                <input type="text" placeholder="Search" >
+            </div>
+            <div id="noti">
+                <br>
+                <img src="https://i.pinimg.com/474x/98/31/a8/9831a87a7f2d3ca32e64a15b1f20cbcf.jpg">
+            </div>
+        </nav>
+         <!-- main body starts here -->
+         <!--elements with class "wxx" signifies they have with xx px for example div with class "w29 signigies width of that  div tag is 29%"-->
+         <!--all the content is created using table and flex-->
+        <main>
+            <content>
+                <div class="w29">
+                    <img src="https://popdiaries.com/wp-content/uploads/2021/12/IMG-20211217-WA0016.jpg">
+                </div>
+                <div class="w29">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/81E3nwsbTGL.jpg">
+                </div>
+                <div class="w29">
+                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f2/ec/30/f2ec30ba-c7f7-0911-9275-1bad2af7081f/artwork.jpg/400x400cc.jpeg">
+                </div >
+                <div class="w100">
+                Trending
+                </div>
+                <div class="w100">
+                </div>
+                <div class="w40">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZWFiMjVlYTMtMzlhYy00MDcxLWFlNmEtMGJkNmRhNjE5N2ViXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg">
+                    <table > 
+                        <tr ><td style="height: 50px;">Barbaadiyan</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Sachet T,Nikhita G
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="w40">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZWFiMjVlYTMtMzlhYy00MDcxLWFlNmEtMGJkNmRhNjE5N2ViXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg">
+                    <table>
+                        <tr style="height: 50px;"><td>Chitta</td>
+                        </tr>
+                        <tr>
+                            <td>Manan Bhardwaj</td>
+                        </tr style="height: 50px">
+                    </table>
+                </div>
+                <div class="w40">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZWFiMjVlYTMtMzlhYy00MDcxLWFlNmEtMGJkNmRhNjE5N2ViXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg">
+                    <table>
+                        <tr style="height: 50px;">
+                            <td>Shiddat Title Track</td>
+                        </tr>
+                        <tr>
+                            <td>Manan Bhardwaj</td>
+                        </tr style="height: 50px">
+                    </table>
+                </div>
+                <div class="w40">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZWFiMjVlYTMtMzlhYy00MDcxLWFlNmEtMGJkNmRhNjE5N2ViXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg">
+                    <table>
+                        <tr style="height: 50px;">
+                            <td>Jug Jug Jeeve</td>
+                        </tr>
+                        <tr>
+                            <td>Sachet T,Nikhita G, Madhubanti B</td>
+                        </tr style="height: 50px">
+                    </table>
+                </div>
+                <div class="w100">
+                </div>
+                <div class="w100">
+                </div>
+                <div class="scrollbar" id="w200f">
+                    <!--note we have hidden scrollbar-->
+                    <div class="popart">
+                        <img src="https://sf.ezoiccdn.com/ezoimgfmt/biographymafia.com/wp-content/uploads/2020/11/20201125_110641.jpg?ezimgfmt=rs:0x0/rscb4/ng:webp/ngcb4"><br>
+                        <a href="">Neha Kakkar
+                        </a>
+                    </div>
+                    <div class="popart">
+                        <img src="https://in.bmscdn.com/iedb/artist/images/website/poster/large/guru-randhawa-1065986-22-09-2017-12-29-56.jpg "><br>
+                        <a href="">Guru Randhawa
+                        </a>
+                    </div>
+                    <div class="popart">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRYWFhYYGRgYGBwaGhgZHBgYGhoYGhoaGRgaGBgcIS4lHB4rIRgaJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHjQhJCs0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ/NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAMEBgcCAQj/xAA9EAACAQIEBQIDBgQEBgMAAAABAgADEQQSITEFBiJBUWFxEzKBFEJSkaGxB3LB0RWy4fAjMzQ1YnOSorP/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAjEQADAQACAgICAwEAAAAAAAAAAQIRAyESMTJBIlEEE4Fx/9oADAMBAAIRAxEAPwCjcOS7KHJOYgX9zNDq8qU1pkrcG295mPD8UUUl9b7eYZHMdYpl+KxU6Bb9vHmc1S9Klr7B/EaxuUQ9QJBkNU+6fmPeFrJYsfmMgVKqg67mVPRGnFNLHLa48wtgKAJsu3eRqKBALa3hXD2RbruZZLYD4zhgXyrpbe0c4dXCdJ/ON8RqZmIGhkF8y2XcnvJbHgZfGnPpqveOpVDMLbd4MTCtlGXXzCWEQZbbHvMKKSLBg6gsPEKYbB5rMplVwuJIOQayy8GxDA5e05qeeyktYQKkfSO57i/iWLD8JRkzEXJgevhB8VUHyk2JkOWq1GjlkzlqiK1QlluqAH0v2l0yi1raQdwbBJSUhRbMbmSOKM4pOU+fKcvv2nZC8ZJfvCt81cGp5HqKgDKMwI894zg8K74dXyn5L5e508QhwvO9ICsxLfeB/a3iHsPYqLbWtpF4+T0t/iihYTDu1K5Ft7A3vYeZI5fwXxKgzDpXU+/iT8dWZGCFQAz2ufUwm9MIAyAA6D3vM/BeWsM094uwpquULdjYD+0quK4UlwzdzreGOKKzMrM3ewHi/iSuKYZRQYgEtlsPJPiX7FjzsE8KajRdWNhpa/i8tC4tXXMjA+olSwfBXpjPUsf2X0vA3GiS/wDwyQqi5sSBfxpvJ82ug6wtXMWDDYR2ZsxC5s3k36QLdthKDzDx92wwoE/MuVxbUKNAL+sL8T4qz0VQEhRa633MrGO4ezLcfMY1SbJqsKk9AXzX0Xb3jWIx4q2utgv3vMkcSotcU9vPtIv2WxCjYbzqlLDPy6OfjJ6xSRdfEUeC0ZxCZdTqo2kdKBPXt4EIqmfXdROsPRDvpoB2j0NG8KzOt308SC6lWJfbtLDiMFp4Agp01JbVRADnDV2TqOo8Qi+Nulxo3iQ8NTD6jYdpIbD5tbWttIdYGHuGIPz7mFafDBa9rmQ+HYRm6mG20NYWoy3vt2nPVd4mWkjilhVQEd94LxDhCfJhHEMXa8YfBki7CTPT7Ge8EUAm5uTD+HqBHv5G8r2AwrIxa/0h/DgOtzI5O2BLxPMzpZEcjztJOFzumfMb7g/2lfxHD7HNLRwPFqKQDA3GgtEXL0mYTmeqgs6FiO97fnJ/B+ag7slayX+XwfS/mAsdWXW2pPaAMXSJOaxEfm0NmnrikarlUg6doWwxAFpnWCcIlwSDYD6yy8HoVSuYki/neXF9+gfaHec+HmpQZkNnTqB/l1tI/A8HWq0kao9hYEKP0vJ3GaFY0HCkFsp0P945ytUJw1PNuFyn3XQzTE67J9ImHALbWxPkiVjjL4hK9MsQaAYFrbj3EugMq3NGKscuW47kHv2+kKSS0FT+yRzDj0OHYKwJawFtfeUVKg1U7Sdhgoy5jp6wdxNVB6dydh4mGuq1hXS6G6ig3N9BAtLjSIzBjsbazzGNVQHQ2Mpdcl6h3Fjr6mdEQjFh/ivEEVs25MGYvFqoOU9TQdmLvdjcLt9Iw75mLbW2nQpwWHd38xRn7W0UrGPAphcTY5V+XvJodS4yG1t4J+zsvya3jzEBcoPUZDWBhaHxSMhF+0Apd2Kj5ZATEEdB795JBanYLreDEkTUwhDDIdO8MYeohOUiQ8M4IFt4+9M3FhrMLaZaDeFoa6DSd8QRcptvBicSdLKFvfe86x1fMpsdTOdcb3Ro4w7XPtJtZ9NJCoaC3eSauMw9JQajkMfu9vyGplpeTxDSZxhwxdDbpvLJWoLYFRY+ko2M5nqZh8N0VANAqgEj3PeRKvONQjc3voNNfVjNVwU12PpF2em7bA2hHgmAJPWwUb2O5mcLzXUCA5nOYnpDWAA73i/xPMvxQah1sxzWYE7bCxEF/GGmjUsThAj+QdjIPEqqaDvM6fmyogCrmJB1ZmJPpCmE5vDBc6qe1m39dRFX8d50N0n0aHy3w01Os3IDA27eZoGHTKoEqXKXMmGemqBgjKNmsL+xhnC8cRqhpgMfDAXUxTPisfsVJ5gXdbgjzKrhcK6PWVXYLn0t2uJbJR+M8aSniKihjew2F9bfpHyeghis6OcruNddTrJGJxCVBYjq73gPC8aPVmGa5JFzA7Ypw7OW3JO+kmZbQ6pFjfCrtAuJVUe8iUcc7OTfTxJPzBi2slUk8wzbIfMOLUpZNWOkp1fC2Fu53MsbYW4JMA8QVkux18Caw02Q2VzGL15F+sZYZmC7Wk6vhsozffb94y+EZV26jOrUB19kX8QijH2BvWKLV+xlqqUEsStsxlfxiBSdeowhxDDujk3N7XA9INqXbqfQ9pMvRJZ7OaNC2rak7H1hnBYa6X3MD0HZep9u0L8Nc/PfTsIrfQybhqGXfRoUpJlGu8gU64Y3bTxH2rNa5Ok5aWlIk1VUL2vIIw3e+s8wwLEkmSWW28nc6BnmGpHUs1gNzKhx589RmDFtdzCvH8U6KF1Ae+sqzOTOrhjFo9WHVOpYieqAzHtfaNWjlPDs2gUmdBI6yqBYm5HYT37a22mUbL2EjshGhFp7TpMxsASfSAdjjMpFzfN4jTkbCe1KbDcEe4tG4AEcHxV02YzYv4b8xoyBqpykkrmO1xY7+xmGibXwzk9qGEoBul3XO4PZmsbW9AQPpOfnSST+y5bfRqQxaMt1YMPIN5nOPoo1VyNbsdd+8EMlSkWXOw9iQDJXDAdzOdV5UtH6RP8AsC20g/F8MJ+9DqHSN110nXhDRXMLQ1I8R2rUCnLOK1cqzBReDKiVCxOU3M5nD3REirXAJ10kHg/DvteIIN8qjQDS58+05fC1S1sptDXLgGHcMUJ0sQdPyMWUvSHMrewHx7lmtRdmKZqai4ZdQAN7+0rtDGgksRde02Li2PSrh3ClVcAjKxHfx5+kx3/DqgqZQhyA/S01jaXYUlPo7+2jwYpN+AfwRR+JIPrYx6rlzsBa3pIxqh2swsBtO/hg6IbW3/tJ2G4JUazOmRCPm/aWuhkNKBY3OqCTKdLup0HaO1aQQ5FOZR3jdNg3Smlt4qESKVQPodLR9M2bXVZDF82UD3Ml1HIso27zLOxkmnSJbMNo9iGBHV2kehWvovaR8VULnJ+ZmTnaFo7jqaV1ykaDZhuD6Suf4GVdASGViddtvMtPCFUOiMem+p9JbOJ8GplaT00KqWtc3N9Cb6+02m3PRczpVMNwBGt0iw20hnAcvpcCwsT4hrDYMDST0ohRCrZ0TADxPJmGY5iLxYXligmqg+0NVHJ0jRpt5mbujXwQKxfBqT6FR+UGVuT8Oylctj+Ib3llKmNC8FdIThMrPI/KKU8azVxnSkudAdi9xYsO9t5o+Ixz1KjdByAAKBqSe8hctIDWe4uQh/cSxYGkDUDBbBbgi3fsYqqra0xaUPop+J4a7Yi9RCEsMvj6+slY3AomqaSy80Oq0CSbMD0kb3me0+IVHcB3uPpBT40T5JoMo0VZtI0jTt52ozYLpuFdiRe86r8ZpINR9LSSq9UC8Uw5z3C6QwRN/wAapbkSLiuNU/w794MNNjrl0E5SmzaldBtHgtCC8VRRte/pO24pT/DqfSDPgvqcu04oq7AsUtGAV+20/wAH6RQR/wAT8MUAIfNHKWIwoDECxPzLtfwYTxnG6FWmUF85WwQjYjz2hvn3m2jiaHwqNyxINyLW+hmcUW+GLvqxmKfkhvp9Dj4Vksq63khKYUWX5jGXrkdQ1J7R37YFALDqPaJkBvguCzg338wdxmmab5V1JMk4HiJpKWO5nFLrfO3ftMUq8n+i21gPOLKDKo6jH8O5FrjU94Tx+DQLmt1RrBJ067zSUiG8ImJq5NV1Jmk4HGu+FoI4QOliVBu1spClh2NjtM3xNDIwc62INvYzQWfIoCoXZyX+mw1mfI/H0dP8WVW6FMOgbtaPYlQqknYTvA0zZcw1IuRFxClmUiRunRmMpPFuN4i5WktNfW5Zv2tAX+O45G6mTL7QpxenVwxZlT4infQ3H1G0AJiq2IOUUiovqTr/AEmk7hLzS0cO4yzrd7fSM47mpaJHQzjvl7SXw3gRFB9OrKbe9tJR8Hi0Dla2hP4ryZTb0bZqPIPHqGJruq5lfIbKwsSLi5H6fnLzRYU75tCTeU3+GeHQNWcAahAh/wDHXNb62l2xVAuy2Ngt7+vpLaT7Rz2/yxnOJwyVkIcBlImWcTwfwcSUU6XBHsZqVakyr0nTvM75mTJiMzm+YAjtpta0it1E51o/e1p0zRpWuAZ0DOyfRLOXOokbFLqI+/mM4jsZRJw1MEWjdKkNpIQaTmn3gB41IbRlEFyJMtGCLNADn4Yij2WKAGZJUv1NoZJqKqrmfXxIGcObkWtGq2djc3KCYpEk2jb576dhC/BOEjEXd7gKbD33lew/Ubg2UdvMs3BOKsgZSl0Jv418iKk/ouc+xzH8MyNY6jtGcNQIOY7eJ1X4izvmPyidfblqdK6eYp6XZFdvolVutZGovkuW2EJLTUJrB2Jph9L6ROuxYsG6v/EFx8su/Llc1KJXKSyDLe19B4MoGJ6RZDoN5dv4T8w0y9TDMQrkB0J0DAaMo9RvbxfxFS8jXipw9QWpcUUPTW+4Pr9P0hCrWma808RKYtwpsqubQxwjmQVFsx6pDnEdarSx4hQ28joiKdALmDsRxC0jVOIoq5viKrjUX1t7iTrforottFRbwJXMVwDDu5ZkUsDv58bSmvzNWRmU1mqAnQkAW9rdpZMDj2yI7OHzC9xp9JTTkNTLpy9WSkxDFUUJuSANxLbh6yuoZCGU7EagzHsbjWfKiAlidhqfyll5FqV1qvTOiKoZ0YEG7XsV8bSpZy8ndYaA4uLTN+e8KVq5mN1KDLptqbgf77w9zPx2ph61GyH4d7u1rhgdCoPkDWcc8mnUwgcMCQVZCO4O/wCYP7Qpp/4RnRWcI+ZFIj6CQeGOMgA7SY+ugM6I9AzypGqouLztreY2xuuksk9p7TlVs14qR7T1zqIAOCM1B1Ax0RvEdoAdXinGYRQAzvIGbLawHfzHzTHyj5e8K4jCkHLk+s4bgtU6IvveYzrRD0FnCISMult5MGIU9A0t3kpuW66jpFjHk5SrFdSAT3j7BpgfFvbpXXz7SOq2ICb95bMJykyrZjmJ7+8kDkxt1JF4kh4yqYzGOQEB1O85qUnQKt73sby3Jycdy1z50jtLl+zEubk+v5RePYY8KbXw1RgFpgsx7D9ZfuV+U0WlTdlHxNHY9wQb2B7R7h2Ap0mzi17W1PYwtTxys6qhGv7d5HImbcSwyXn9mTGVRa2bKwJG9wNvTSVzh+OZHBzG95rH8Q+EivSuqjOhuD3t49pjmZkJFrEaajUTXjypwvk2Xpb+JcwBVVVBzHeQcOlZjc0yQx7nQSuCqb3J1lnwvH2RA2W42MKjxXSHFKvY/jMItOmzMKZuNrMGJ8L6wVh+NtTNrHLbY7iGafMCupPwgAv3iAbe3rK3hkFfEKrHKrtqfCjU/oITO9NBdeK6Zu/I3AMlDDVqlviOGqMTuA9iig+i2ljosj4vOjapTyNb712v9bW/WZ7wria0qIQu2RCRTUsSQgPSPyklOYEXrW9+1t5Ph2ZOtNMxuDWqjI4urCx/uPBlewvAqbUDSLZghK+5Umxt+Uqbc6VCD1Pb/fecYPjRYgai/vH/AF6JPBVsL8Oo6Da4tbYGwvb6xynQOXeScbSNg0VJrzSViAh4ikcjWOsbwwsnrJp7yHQOhlIliom2k7rbRmnuZIYaQASHSc1x0zpNoqmxgBFtPI3nMUAHKvFKY3Gs7TjiJqBeDDQbdlnlHCvvlklBipzBcXy6+0aXj7+D2g8YRzraKlhHO9gBDBBL/H2GuS/1njcw1CNFA+sruM4iiE3O30ECVeZtdLW7WF41LFpdU49WI1AEbfitVt7frKO/Mzn7qgTs8fupFzr5a35HtK8GGlnqYpr9TgehNpdeW+GsiGo/zOOkfhX+5mQ8ucRo0sQKtak1ex6ULA2e+hsR1W7CbSeLWpCo6MhYXCNa497Tn5tXR0cMp/kRuK4RyjNlJAFz3NvNt5kXM/C+suo9x/WaViOZgbAuEO3UQAfNiZWOIujA5SCPTWYS3NJo2pKljMzbeOJXIBA2MLY7hhJOUaweOG1SbBCfads2mjkcuX0cHFtly7CGOVqaZmZiLgWA9O5gOtRZTZhYjsZI4bXyPf0tLS0ht/ZoGHOf5bMB3BB/ad1aD30Gkp3LHEzRqmw6WOo9L2mpBAR7yGsAr64Z2OwtCPDsNdgT90wiKelp7QQAmMaCOMa6SFSaP1dUkOjtANHb6mRaZ6iJLkW1nI8wEcH5o+NZHq6GPKdLQA6BibWcIdbRwwAjZYo9ligBJZJylOSHE5p2klHJpyBxOrko1X/AjH9NIUIg3jeGz0KqbZkIvKAyXC3ds9UkoGBYXsWF7sAfa82nAY/huLohFoUmp2AylVVlNvTVT6zKqvAWI62CINFUC5Pq3YGTeW8D8KupRyQwKkaa6EjT3EVr8dQ+Nrca9knnnkY4ZTiMOxfD36gdWp3Olz95b6X32v5lBvPoLDVhUpPSfVHQow9GFjMv5R5TNfEuHF6NByHJ2YqTZfra59JMcuz2XycLT6DX8POWlVRi663O9JD4/Gf6Sy8SqvWJVEZ2OyL3+uw+s74ri/ujRRoANBYTvl/ipplugFSR1d7baTCq8nrOiZ8Z6Mi5nw+ISqVxFNqbfdVtsv8A4kaN7iCKdQrqCQfQ2mofxb4qlRKVMLdlbNe2iggixb18eky0TpnHJx3qoI4fi7ro3UPXf85LqcdstkBDHue3t5gGew/rlvcD+yszTp3LEkm5JuSe5nKmeT0CWiBwPsBoLzSMBzN0qGA0AFxpM5p05JSqQd5XjvsnTWMJxam+l7H1/vJoPeY8vEGU6G0t/KfMedvhudfumTU/opMvdP5TIeHO/vJmGQkE9pCU9ZEkY/eR6p6gY5eRq26n1gB7X0sY5TOk8xA0nNM3jEeroY7eMt80e3iGK8U8vFAAg4jVEWMeaNqtoFHTuACTsNTKZzNzL8MWUXJ2Ha3kwvzLj8gRAdXNz/KP9ZQeLvnbWVM6TTPKPMRc2qAa+IZ5fTNiaYXXUn6ZTKRXo21G0u38LSWxD31K09PqwEXJ1LK4/ki+4fCvnVVHfX09ZLq0Ew6FEAFyWb1ZjdiZJxGJSiNNWMAVMcar5fWef6O/dIT02qPl7dz/AEhGoyooUbnQSYuGCLpvIa0zmudhtKzBN6P4dhTQoVV1e+dXAIa+4IMx3mfhooYmrTVSqZsyBtTkOq69x2+k1atVYmwVm1sbAkD1JtYR7mLC06uBqYdrBwpZG0Bzr1AE+Dt9ZrxXjww5Y1ajDAsWWdAxGduI5DiSMPSLbSPCXAkLVVQbtcD3tf8ApEumD9Ha4N/wE+wv+04OHa/ym/sZbUpvh26gpJUjWzCx07bETuphc6K6XYrf4g7r+EgePWPcElpRMSljPcDXKOrA2IIh7mDDFUGZcpIDgkWJU6X9pWIm/saNz5e4iKiKb6Eajw06xaBalhsRf/ZlD5K4tkdUJ6XFh6MBpNCxL3F9yP8Ad/09PftJawekep4EbxKdAjj+ZxUPQZIxuo11tOaR7Tyn8k8oG0okdqnYR2MVNr944h0iGd2inMUQBRpzadGQ+LYsUqLvYnKvbfXQfvArSlcbrl67tfQdK+w0/e8A4imTeP1uLKSSKTfUqP6yLV4iTtTt7t/pNZM2DcQN5YP4a4jJi29aTD9VP9JXMRUvutv1h3kWiTiCQDlCMCbGwJtYE9jpI5vgzTi+SL/WxJdyTqBISYrI5YDWSa1AopY94BxVbWwnmLT0MCdPjjM1iYZTEqy6HWUhJPwtfLuZa0TLYgCdfe3k/ttK9zFj7o5B1ytbpc3sNgVFh7nSS6nFFKEnYC8zzi3Fq7s9mqrTJ+S7ZQPGmnma8c6zm5raWICzlorzwzt+jmPRJPDsQadWm4+6wP0vr+l5HWckQfoDX2w6LVR3VaiE3KAalSL/AF01k7E8KR6iVsM5TNYZcrZTtmU2+UkdiLGVzgvFi2Fpl6bNkBQuBcXXa99PFwZd+F8XVzUSoFR0AZuwZLaOPA9BMrbXYpf0AufOHK+VTYE03C+662/UTGpuPMQL/DawbLmBvuBmW3vqB+cxXG08tR18Ow/JiJUvoaO8PiChVhupB/I3mxU8SHSnVGxAOnqBMVvpLnyfxdiRh2N1y3S/YjdfaW/QGiYhO/Y/TXvp2kVdjH8NirrZrnTT+3+/yMjE6kdpmM5o6iNUzqZ3Qe9x4jbHqtKEPOdJ7RbS88OotFT8RAO5op5aKIYTJgTm6rlwr+pUfmwhmVnnypbDKv4nH6AmC9lMz01tdZ7UrACRahjFV+02MjypVvNS/hdWD4LFYdCPjCoKyrYXdAEDBfJFv/sPMy2nSDaA6+JPwuNqYaoj0XKuhuGHnuLHcdiDM7XksNJePTTeL4jMgsZXX3hTB8yYTHqBWcYTE93Ivh6reT+An+veLHctYtBm+FnTcPSIqIR56df0nBXHUs7p5ZpAZjENdJ3TpE6WN/FjOON0WoUQ5IDMbBD81vMqIdMmrUoI4DKq5viMm/UKlFAbEadd2/aMcex6fAdBUBNm0XEh8wN9MttTfW0q3CeMYlLphz1Ob2CI7k+hKk7CRuLVcRUOeuGuLrmZMo0NiNABcEzoXF4vtnm1Lq/JshPSICkjRgSDprY2PtqO8aYTyetN/o0Es8MV54Yt6GWDlvjVajdablQTfKbFSdtVM0vBUWxbUa3wFYBQtRnKqt17BASWXU9uwmO4C3xEvtnW/tmF5uHAcGlLM1rMBZfY7+v1mXI+sBT3qBnMuIRRSILKiVLOVBvlG+m9rqNPSZRxiu1StUdt3YsdAN/QTVuJ8Lq1mrorBi5uoY6Xy7KewsJmXHuGVKL5ailWGhBt/SOGmsJSafYJGxjuGxLI6su6m4jajecTV+hmx8LxS1KaMuzAH/SSn3lC5G4tlY0GPS2qejdx9ZenbS8gY3R0YjvOauh95zTNnue89xB1vGIczWE6QzhD3M6Ua3gwHbRTnNFEMKmUz+INXpor6sf0A/rLiTKVzxRepWw9NELu4YKoFyWJG0SxMdPoo7peWPivI74fApiapZalSoqrStshUm79w2m01jknkCjhVWrWVamJ3udUpnxTB7j8W/tAn8auIZfs1Lsc7n3XKo/zGS+XypJENNLTJMGMh21PfwB4kCuxJJPmG8dVUIpGptYwDUbWbAjiGOE8yYnDf8mq6DwrED/47fpA0Uh9lptFkr84Yp79YBOpay3v3O1oHxWOqVGzVGZiPJ29vEiqdZ1UEqZSWoTbfsK8vcUGHrCoyhlsQQQTYG2tgfSGuY+NU61BglTVnzZMpFlzbC/mwYn0Ept55IqU60h8abVfYorxGKUWKKKKIBCbnyviabYakyqATTXNrrnAytt6iYZLDy/x6tR6FYZArNlKg7Asdd+0m5dINw1/A4Ql2YNf0Pa40sZXuc+XFahWdVXOOsHKC3TqwDb6gGdcuc50qiEMrioACyKpe9typHaEOJ8zUHR7q6lBdg6MOnZhte9jOeFc16HVT+zFFEbkhwMxy/LmNva+n6S0fw0xqU8aq1FUioCgLAHK+6kX2uRb6zt5Hk6Q3ibInL3KGLrsrqppqCCKjgqNO6jdvpL+zqGdA4cocrMBbrAGbTtqZdeKYpaVJ6jfKiFj7KLzC+W+MkYhs50rkk+jkkg/qR9ZzcVu22/RjxXVtt9JF5J6wZ3iRfWM1m2t5j2I1Wbm55SN47fWMUj2jjQAezRRq0UADBkbhn/dMJ/6637CKKZV6Y69GmNtMa/jl/zcL/JU/wAyxRTDi+ZNfRnGI+UewgwzyKdz9DQooopAz0Tttoopa9CGzFFFJGIxRRRAKIRRQA9kvBfe/kb9oopYn6C3KX/Pb/1P/SFeK/8AccR/JU//ABMUUzfyMX8v8KeN5J4R/wBRS/8Acn+cRRS79Gn0btz5/wBBif5P6ifP1D5l/mH7xRTn4PizL+P8X/01Y7SQ3yz2Kbm4zQ3MeiigAooooAf/2Q== ">
+                        <br>
+                        <a href="">A.P. Dhillon
+                        </a>
+                    </div>
+                    <div class="popart">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Jubin_Nautiyal_graces_the_International_Customs_Day.jpg"><br>
+                        <a href="">Jubin Nautiyal
+                        </a>
+                    </div>
+                    <div class="popart">
+                        <img src="https://www.mwallpapers.com/photos/celebrities/tony-kakkar/tony-kakkarhd-wallpapers-desktop-background-android-iphone-1080p-4k-kqcnr.jpg?v=1610692750"><br>
+                        <a href="">Tony Kakkar
+                        </a>
+                    </div>
+                    <div class="popart">
+                        <img src="https://wikibio.in/wp-content/uploads/2019/06/Sachet-Tandon.jpg "><br>
+                        <a href="">Sachet-Tandon
+                        </a>
+                    </div>
+                    <div class="popart">
+                        <img src="https://images.hungama.com/a/1/28f/4ab/274421968/274421968_200x200.jpg"><br>
+                        <a href="">Parampara Thakur
+                        </a>
+                    </div>
+                    <div class="popart">
+                        <img src="https://indiashorts.com/wp-content/uploads/2021/04/Veham-composer-Manan-Bhardwaj-After-I-lost-my-father-I-was-left-with-just-a-dream.jpg"><br>
+                        <a href="">Manan Bhardwaj
+                        </a>
+                    </div>
+                    <div class="popart">
+                        <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2020/08/24/Pictures/_1741a81e-e5fa-11ea-8811-9dd7c7000caf.png">
+                        <br>
+                        <a href="">Nikita Gandhi
+                        </a>
+                    </div>
+                </div>
+                <div id="mood">
+                    <div id="party">
+                        <div>
+                        <span>
+                            Party
+                        </span>
+                    </div>
+                    </div>
+                    <div id="electronic">
+                        <div>
+                        <span>
+                            Electronic
+                        </span>
+                    </div>
+                    </div>
+                    <div id="road-trip">
+                        <div>
+                        <span>
+                            Road-trip
+                        </span>
+                    </div>
+                    </div>
+                </div>
+                <div style="margin:1%;">Latest English</div>
+                <div class="latest">
+                    <div class="w15">
+                        <img src="https://th.bing.com/th/id/R.02e6b1ec70ea4dbee26c2febaa10f6b6?rik=fZftIv9bXvV2BQ&riu=http%3a%2f%2fheadlineplanet.com%2fhome%2fwp-content%2fuploads%2f2017%2f01%2fShape-Of-You-Cover-e1485138467734.jpg&ehk=9tAusaQ2OVuX4sG%2bGnD073QKPitMNHB7rIJFlm6%2fFlY%3d&risl=&pid=ImgRaw&r=0">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://th.bing.com/th/id/R.02e6b1ec70ea4dbee26c2febaa10f6b6?rik=fZftIv9bXvV2BQ&riu=http%3a%2f%2fheadlineplanet.com%2fhome%2fwp-content%2fuploads%2f2017%2f01%2fShape-Of-You-Cover-e1485138467734.jpg&ehk=9tAusaQ2OVuX4sG%2bGnD073QKPitMNHB7rIJFlm6%2fFlY%3d&risl=&pid=ImgRaw&r=0">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://th.bing.com/th/id/R.02e6b1ec70ea4dbee26c2febaa10f6b6?rik=fZftIv9bXvV2BQ&riu=http%3a%2f%2fheadlineplanet.com%2fhome%2fwp-content%2fuploads%2f2017%2f01%2fShape-Of-You-Cover-e1485138467734.jpg&ehk=9tAusaQ2OVuX4sG%2bGnD073QKPitMNHB7rIJFlm6%2fFlY%3d&risl=&pid=ImgRaw&r=0">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://th.bing.com/th/id/R.02e6b1ec70ea4dbee26c2febaa10f6b6?rik=fZftIv9bXvV2BQ&riu=http%3a%2f%2fheadlineplanet.com%2fhome%2fwp-content%2fuploads%2f2017%2f01%2fShape-Of-You-Cover-e1485138467734.jpg&ehk=9tAusaQ2OVuX4sG%2bGnD073QKPitMNHB7rIJFlm6%2fFlY%3d&risl=&pid=ImgRaw&r=0">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://th.bing.com/th/id/R.02e6b1ec70ea4dbee26c2febaa10f6b6?rik=fZftIv9bXvV2BQ&riu=http%3a%2f%2fheadlineplanet.com%2fhome%2fwp-content%2fuploads%2f2017%2f01%2fShape-Of-You-Cover-e1485138467734.jpg&ehk=9tAusaQ2OVuX4sG%2bGnD073QKPitMNHB7rIJFlm6%2fFlY%3d&risl=&pid=ImgRaw&r=0">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://th.bing.com/th/id/R.02e6b1ec70ea4dbee26c2febaa10f6b6?rik=fZftIv9bXvV2BQ&riu=http%3a%2f%2fheadlineplanet.com%2fhome%2fwp-content%2fuploads%2f2017%2f01%2fShape-Of-You-Cover-e1485138467734.jpg&ehk=9tAusaQ2OVuX4sG%2bGnD073QKPitMNHB7rIJFlm6%2fFlY%3d&risl=&pid=ImgRaw&r=0">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                </div>
+                <div style="margin:1%">
+                    Latest Hindi
+                </div>
+                <div class="latest">
+                      <div class="w15">
+                        <img src="https://i0.wp.com/vanillaskydreaming.com/wp-content/uploads/2014/08/holi-festival.jpg">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://i0.wp.com/vanillaskydreaming.com/wp-content/uploads/2014/08/holi-festival.jpg">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://i0.wp.com/vanillaskydreaming.com/wp-content/uploads/2014/08/holi-festival.jpg">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://i0.wp.com/vanillaskydreaming.com/wp-content/uploads/2014/08/holi-festival.jpg">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://i0.wp.com/vanillaskydreaming.com/wp-content/uploads/2014/08/holi-festival.jpg">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                    <div class="w15">
+                        <img src="https://i0.wp.com/vanillaskydreaming.com/wp-content/uploads/2014/08/holi-festival.jpg">
+                        <br>
+                        Song Name<br>
+                        Aug 21,2021
+                    </div>
+                </div>
+
+            </content>
+            <aside>
+            <!--in aside we will be adding our queue -->
+                <table id="q">
+                    <caption>
+                        Queue
+                    </caption>
+                    <tr>
+                        <td>
+                           01 
+                           <br>
+                           <br>
+                        </td>
+                        <td class="chitta">
+                            <!--u need to click on song name to listen song-->
+    
+                            <a href="#chitta">
+                                Chitta
+                            </a>
+                                <br>
+                                Manan bhardwaj
+                            <audio src="Chitta - Shiddat (1).mp3" id="chitta" controls>
+                            </audio>
+                        </td>
+                        <td class="heart">
+                            <!--on clicking heart it will turn into red color-->
+                            ❤
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            02
+                        </td>
+                        <td>
+                            <a href="#bar">
+                                Barbaadiyan
+                            </a>
+                                <br>
+                                Sachet T
+                            <audio src="Barbaadiyan - Shiddat.mp3" id="bar" controls>
+                            </audio>
+                            
+                        </td>
+                        <td class="heart">
+                            ❤
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            03
+                        </td>
+                        <td>
+                            
+                            <a href="#dance">
+                                Dance Meri Raani
+                            </a>
+                                <br>
+                                Guru Randhawa
+                            
+                            <audio src="Dance Meri Rani - Guru Randhawa 128 Kbps.mp3" id="dance" controls>
+                            </audio>
+                        </td> 
+                        <td class="heart">
+                            ❤
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td>
+                            04
+                        </td>
+                        <td>
+                            
+                            <a href="#title">
+                                Shiddat Title Track
+                            </a>
+                                <br>
+                                Manan bhardwaj
+                        
+                            <audio src="Title Track Shiddat 128 Kbps.mp3" id="title" controls>
+                            </audio>
+                        </td>    
+                        <td class="heart">
+                            ❤
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            05
+                        </td>
+                        <td>
+                            
+                            <a href="#tareef">
+                                Tareef
+                            </a>
+                                <br>
+                  
+                                A.P. Dhillon
+                           
+                            <audio src="Tareef (feat. AP Dhillon) - Oran Singh.mp3" id="tareef" controls>
+                            </audio>
+                        </td>    
+                        <td class="heart">
+                            ❤
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            06
+                        </td>
+                        <td>
+                            
+                            <a href="#jug">
+                                Jug Jug Jeeve
+                            </a>
+                                <br>
+                  
+                                Sachet T,Nikhita G, Madhubanti B
+                           
+                            <audio src="Jug Jug Jeeve - Shiddat.mp3" id="jug" controls>
+                            </audio>
+                        </td>   
+                        <td class="heart">
+                            ❤
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                           07
+                           <br>
+                           <br>
+                        </td>
+                        <td class="chitta">
+                            <a href="#chitta">
+                                Chitta
+                            </a>
+                                <br>
+                                Manan bhardwaj
+                            <audio src="Chitta - Shiddat (1).mp3" id="chitta" controls>
+                            </audio>
+                        </td>
+                        <td class="heart">
+                            ❤
+                        </td>
+                        <td>
+
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            08
+                        </td>
+                        <td>
+                            <a href="#bar">
+                                Barbaadiyan
+                            </a>
+                                <br>
+                                Sachet T
+                            <audio src="Barbaadiyan - Shiddat.mp3" id="bar" controls>
+                            </audio>
+                            
+                        </td>
+                        <td class="heart">
+                            ❤
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            09
+                        </td>
+                        <td>
+                            
+                            <a href="#dance">
+                                Dance Meri Raani
+                            </a>
+                                <br>
+                                Guru Randhawa
+                            
+                            <audio src="Dance Meri Rani - Guru Randhawa 128 Kbps.mp3" id="dance" controls>
+                            </audio>
+                        </td>  
+                        <td class="heart">
+                            ❤
+                        </td>  
+                    </tr>
+                    <tr>
+                        <td>
+                            10
+                        </td>
+                        <td>
+                            
+                            <a href="#title">
+                                Shiddat Title Track
+                            </a>
+                                <br>
+                                Manan bhardwaj
+                        
+                            <audio src="Title Track Shiddat 128 Kbps.mp3" id="title" controls>
+                            </audio>
+                        </td>   
+                        <td class="heart">
+                            ❤
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            11
+                        </td>
+                        <td>
+                            
+                            <a href="#tareef">
+                                Tareef
+                            </a>
+                                <br>
+                  
+                                A.P. Dhillon
+                           
+                            <audio src="Tareef (feat. AP Dhillon) - Oran Singh.mp3" id="tareef" controls>
+                            </audio>
+                        </td>    
+                        <td class="heart">
+                            ❤
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            12
+                        </td>
+                        <td>
+                            
+                            <a href="#jug">
+                                Jug Jug Jeeve
+                            </a>
+                                <br>
+                  
+                                Sachet T,Nikhita G, Madhubanti B
+                           
+                            <audio src="Jug Jug Jeeve - Shiddat.mp3" id="jug" controls>
+                            </audio>
+                        </td>    
+                        <td class="heart">
+                            ❤
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                           13
+                           <br>
+                           <br>
+                        </td>
+                        <td class="chitta">
+                            <a href="#chitta">
+                                Chitta
+                            </a>
+                                <br>
+                                Manan bhardwaj
+                            <audio src="Chitta - Shiddat (1).mp3" id="chitta" controls>
+                            </audio>
+                        </td>
+                        <td class="heart">
+                            ❤
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            14
+                        </td>
+                        <td>
+                            <a href="#bar">
+                                Barbaadiyan
+                            </a>
+                                <br>
+                                Sachet T
+                            <audio src="Barbaadiyan - Shiddat.mp3" id="bar" controls>
+                            </audio>
+                            
+                        </td>
+                        <td class="heart">❤
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            15
+                        </td>
+                        <td>
+                            
+                            <a href="#dance">
+                                Dance Meri Raani
+                            </a>
+                                <br>
+                                Guru Randhawa
+                            
+                            <audio src="Dance Meri Rani - Guru Randhawa 128 Kbps.mp3" id="dance" controls>
+                            </audio>
+                        </td>    
+                        <td class="heart">❤
+                            
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            16
+                        </td>
+                        <td>
+                            
+                            <a href="#title">
+                                Shiddat Title Track
+                            </a>
+                                <br>
+                                Manan bhardwaj
+                        
+                            <audio src="Title Track Shiddat 128 Kbps.mp3" id="title" controls>
+                            </audio>
+                        </td>    
+                        <td class="heart">❤
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            17
+                        </td>
+                        <td>
+                            
+                            <a href="#tareef">
+                                Tareef
+                            </a>
+                                <br>
+                  
+                                A.P. Dhillon
+                           
+                            <audio src="Tareef (feat. AP Dhillon) - Oran Singh.mp3" id="tareef" controls>
+                            </audio>
+                        </td> 
+                        <td class="heart">❤
+                            
+                        </td>   
+                    </tr>
+                    <tr>
+                        <td>
+                            18
+                        </td>
+                        <td>
+                            
+                            <a href="#jug">
+                                Jug Jug Jeeve
+                            </a>
+                                <br>
+                  
+                                Sachet T,Nikhita G, Madhubanti B
+                           
+                            <audio src="Jug Jug Jeeve - Shiddat.mp3" id="jug" controls>
+                            </audio>
+                        </td>  
+                        <td class="heart">❤
+                            
+                        </td>  
+                    </tr>
+                </table>
+            </aside>
+        </main>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    </div>
+</body>
+</html>
+  
